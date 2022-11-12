@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="selenium-captcha",
+    name="selenium_captcha",
     version="0.0.1",
     author="Improvs Tech",
     author_email="improvs.tech@gmail.com",
