@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="selenium_captcha",
-    version="0.0.1",
+    name="selenium-captcha-solver",
+    version="0.0.4",
     author="Improvs Tech",
     author_email="improvs.tech@gmail.com",
     description="Selenium captcha solver",
@@ -17,7 +17,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_dir={"": "src"},
-    packages=setuptools.find_packages(where="src"),
-    python_requires=">=3.6"
+    packages=setuptools.find_packages(),
 )

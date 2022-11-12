@@ -2,7 +2,7 @@
 Usage example:
 
 ```
-import CaptchaSolver
+from scs.captcha import CaptchaSolver
 
 driver.get('page with captcha')
 captcha_solver = CaptchaSolver(
