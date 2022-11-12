@@ -11,7 +11,7 @@ setuptools.setup(
     description="Selenium captcha solver",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/KofeinTech/selenium-captcha",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
